@@ -14,24 +14,24 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      "Are you sure?",
-      "Really sure?",
+      "U sure empress?",
+      "Sure sure?",
       "Think again!",
       "Last chance!",
       "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
-      "Plsss? :( You're breaking my heart",
+      "My love",
+      "My baby",
+      "You don't love me?",
+      "Cold empress",
+      "IK you do",
+      "But I love you :')",
+      "Please?",
+      "Just reconsider...",
+      "But I'll die",
+      "I'll be empressless",
+      "My life would be meaningless",
+      "You know I'd die for you",
+      "Plssssssss pretty",
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -43,7 +43,7 @@ export default function Page() {
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
           <div className="text-4xl md:text-6xl font-bold my-4">
-            I Love You Toooo
+            I Love You Toooo! look at that smily face hehehe you're adorable 😙
           </div>
         </>
       ) : (
@@ -61,7 +61,7 @@ export default function Page() {
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.webp"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Do you love me :3 ?
+            Do you love me ? :3
           </h1>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
